@@ -1,0 +1,9 @@
+banco de dados GraphQL:
+
+1: criar pasta 'src'
+2: pasta src                   > knex init
+3: arquivo 'knexfile.js'       > criar conexão com banco
+4: pasta src                   > knex migrate:make create_table_users
+5: pasta migrations/arquivo.js > criar schema da tabela 
+6: pasta src                   > knex migrate:latest
+7: pasta src                   > criar pasta config 
